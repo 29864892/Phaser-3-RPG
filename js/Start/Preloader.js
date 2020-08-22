@@ -15,9 +15,9 @@ class Preloader extends Phaser.Scene{
 		this.scene.start('proto');
 	}
 	LoadMainMenu(){
-		this.load.image('menu', 'assets/menus/confirm.png');
+		this.load.image('menu', 'assets/menus/Confirm.png');
 		this.load.image('back', 'assets/menus/back.png');
-		this.load.image('confirm', 'assets/menus/confirm.png');
+		this.load.image('confirm', 'assets/menus/Confirm.png');
 		this.load.image('next', 'assets/menus/next.png');
 		this.load.image('cancel', 'assets/menus/cancel.png');
 		this.load.image('run', 'assets/menus/run.png');
