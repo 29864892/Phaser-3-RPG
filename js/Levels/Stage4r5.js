@@ -17,7 +17,7 @@ class Stage4r5 extends Phaser.Scene{
     });
 	}
 	preload(){
-		this.load.tilemapTiledJSON('map4r5', 'assets/stage4/Stage4r5/stage4r5.json');
+		this.load.tilemapTiledJSON('map4r5', 'assets/stage4/stage4r5/stage4r5.json');
 		this.load.spritesheet('tiles4r5', 'assets/stage4/stage4r5/stage4tiles.png', {frameWidth: 40, frameHeight: 40});
 	}
 	create(){
