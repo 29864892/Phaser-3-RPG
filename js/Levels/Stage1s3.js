@@ -106,11 +106,11 @@ class Stage1s3 extends Phaser.Scene{
 	//battle sequence
 	Message(){
 		if(this.message1){
-			this.worldText('Finally here are ya kid? Was wondrin whether or \nnot ya cared bout your folks.');
+			this.worldText('Ya finally here kid? Was wonderin\' whether or \nnot ya cared \'bout your folks.');
 			this.message1 = false;
 		}
 		else{
-			this.worldText('To get to the General Hospital, ya gonna have to \ntake a detour kid. Some youngsters are blocking \nthe path so try going another way.');
+			this.worldText('To git to the General Hospital, ya gonna have to \ntake a detour kid. Some youngsters are blocking \nthe path so try going another way.');
 		}
 	}
 	clearText(){
