@@ -16,22 +16,23 @@ function clearText(scene){
 		scene.createText = false;
 	}
 }
+/*Text for most of the Game*/
 //Stage 3 text
 	//initial conversation
 	let s3text1 = 'Soldier:\nFighting against us is a waste of time!';
-	let	s3text2 = 'Mysterious Person:\nI refuse to yield to you!';
-	let	s3text3 = 'Soldier:\nOh, you would rather die then?';
-	let	s3text4 = 'Mysterious Person:\n ...';
-	let	s3text5 = 'Soldier:\nIf you don\'t cooperate with us, we will have no \nchoice but to kill you.';
-	let	s3text6 = 'Mysterious Person:\nI would rather die than help you!';
+	let s3text2 = 'Mysterious Person:\nI refuse to yield to you!';
+	let s3text3 = 'Soldier:\nOh, you would rather die then?';
+	let s3text4 = 'Mysterious Person:\n ...';
+	let s3text5 = 'Soldier:\nIf you don\'t cooperate with us, we will have no \nchoice but to kill you.';
+	let s3text6 = 'Mysterious Person:\nI would rather die than help you!';
 	let s3text7 = 'Mysterious Person:\nMy allies told me about the ones you \nmassacred yesterday...';
-	let	s3text8 = 'Mysterious Person:\nNot only my kind but also your own \npeople were killed to cover up our existence.';
-	let	s3text9 = 'Mysterious Person:\nI will never surrender to murderers \nsuch as yourselves!';
-	let	s3text10 = 'Soldier:\nHAHAHAHAHHAHAHAHAHAHAHAAAAAAA!';
-	let	s3text11 = 'Soldier:\nLooks like we didn\'t murder all of you that \nday, huh?';
-	let	s3text12 = 'Soldier:\nI guess we enjoyed ourselves too much to pay \nattention to the corpses.';
-	let	s3text13 = 'Soldier:\nI take back what I said, we\'re going to \nkill you!';
-	let	s3text14 = 'Mysterious Person:\nNot before I avenge my fallen \ncomrades!';
+	let s3text8 = 'Mysterious Person:\nNot only my kind but also your own \npeople were killed to cover up our existence.';
+	let s3text9 = 'Mysterious Person:\nI will never surrender to murderers \nsuch as yourselves!';
+	let s3text10 = 'Soldier:\nHAHAHAHAHHAHAHAHAHAHAHAAAAAAA!';
+	let s3text11 = 'Soldier:\nLooks like we didn\'t murder all of you that \nday, huh?';
+	let s3text12 = 'Soldier:\nI guess we enjoyed ourselves too much to pay \nattention to the corpses.';
+	let s3text13 = 'Soldier:\nI take back what I said, we\'re going to \nkill you!';
+	let s3text14 = 'Mysterious Person:\nNot before I avenge my fallen \ncomrades!';
 	//choice 1 (help)
 	let s3c1Text1 = 'Soldier:\nWell, well! Looks like we\'ll have to silence \nthis one too!';
 	let s3c1Text2 = 'Mysterious Person\nYou really are hopeless...';
@@ -76,7 +77,7 @@ function clearText(scene){
 	let s4s2Text15 = 'Luna:\nI think that wraps this up. Stay out of trouble \nokay?';
 	let s4s2Text16 = 'Librarian:\nOf course! If you ever need anything from me \njust ask! I\'ll do anything for you!';
 	let s4s2Text17 = 'Luna:\nS-Sure! I\'ll let you know when the time comes.';
-	let s4s2Text18 = 'Luna:\nWhat a creep. I guess all races have people \nlike that.';
+	let s4s2Text18 = 'Luna:\nWhat a creep. Reminds me of home in a bad way...';
 	let s4s2Text19 = 'Librarian:\nIf you ever need anything from me just ask!\n I\'ll do anything for you!';
   //stage4s1
 	let s4s1Text1 = 'Kid:\nW-who are you people? Are you even human?';
@@ -92,11 +93,11 @@ function clearText(scene){
 	let s4r2Text1 = 'Luna\nWhat could\'ve caused this destruction?';
   //stage4r3
 	let s4r3Text1 = 'Soldier 1:\nWhat a shame we had to kill her.';
-	let s4r3Text2 = 'Soldier 2:\nYeah, she would\'ve been a great servant.';
+	let s4r3Text2 = 'Soldier 2:\nYeah, she was quite good looking...';
 	let s4r3Text3 = 'Soldier 3:\nDon\'t worry about cleaning up, this whole \ntown is being purged anyways.';
 	//choice 1 (fight)
 	let s4r3Text5 = 'Luna:\nShe might still be alive!';
-	let s4r3Text6 = 'Soldier 1:\nWho the hell are you?';
+	let s4r3Text6 = 'Soldier 1:\nWho the hell are you!?';
 	let s4r3Text7 = 'Luna:\nI\'m here to stop this!';
 	let s4r3Text7b = 'Soldier 1:\nTake her out!';
 	//choice 2 (leave)
@@ -120,17 +121,17 @@ function clearText(scene){
 	let s4r3VText13 = 'Luna\nTo tell you the truth, I was thinking of going \non without you after we arrived here.';
 	let s4r3VText14 = 'Luna:\nBut I don\'t want you to end up like this woman.';
 	let s4r3VText15 = 'Luna:\nEven if I left you, I would have no where else to \ngo.';
-	let s4r3VText16 = 'Luna:\nJust let me stay with you a little while longer...';
+	let s4r3VText16 = 'Luna:\nI might as well stay with you for a while longer...';
 	let s4r3VTexts2 = [s4r3VText12, s4r3VText13, s4r3VText14, s4r3VText15, s4r3VText16];
   //stage4r4
 	let s4r4Text1 = 'Gang Leader:\n Your boss is sending me more guns right?';
 	let s4r4Text2 = 'Soldier:\nO-of course sir! The supplies should arrive \ntomorrow!';
 	let s4r4Text3 = 'Gang Leader:\nHeh, that\'s perfect. I really need to restore \n\'order\' to the area soon.';
 	let s4r4Text4 = 'Soldier:\nMy Captain also wishes to inform you that \nwe will leaving this area tomorrow.';
-	let s4r4Text5 = 'Gang Leader:\nGood! Get out of here you government dogs!';
+	let s4r4Text5 = 'Gang Leader:\nGood! Get out of here you pests!';
 	let s4r4Text6 = 'Soldier:\nTsk. What a pain...';
-	let s4r4Text7 = 'Gang Leader:\nWhat was that, pig? Got a death wish?';
-	let s4r4Text8 = 'Soldier:\nHey, there\'s intruders over there! \n(Time to get out of here)';
+	let s4r4Text7 = 'Gang Leader:\nWhat was that, runt? Got a death wish?';
+	let s4r4Text8 = 'Soldier:\nHey, there\'s survivors over there! \n(Time to get out of here)';
 	//Soldier leaves
 	let s4r4Text9 = 'Gang Leader:\n*Snorts* Fortunately for you, I\'m in a good mood!';
 	let s4r4Text10 = 'Gang Leader:\nMhmm... You\'re just as good of a lady.';
@@ -143,13 +144,13 @@ function clearText(scene){
 	let s4r4Text16 = 'Gang Leader:\nHeh, you\'re not even human, what we do \nshouldn\'t matter to you.';
 	let s4r4Text17 = 'Gang Leader:\nKid, calm your girlfriend down, okay? She\'s \nmaking me angry...';
 	let s4r4Text18 = 'Luna:\nGIRLFRIEND!? I\'ll make you regret being born!';
-	let s4r4Text19 = '(Am I really that unattractive...)';
+	let s4r4Text19 = '...';
 	let s4r4Texts = [s4r4Text1, s4r4Text2, s4r4Text3 ,s4r4Text4, s4r4Text5, s4r4Text6, s4r4Text7, s4r4Text8, s4r4Text9, s4r4Text10, s4r4Text11, s4r4Text12, s4r4Text13, s4r4Text14, s4r4Text15, s4r4Text16e, s4r4Text16, s4r4Text17, s4r4Text18, s4r4Text19];
 	//after battle
-	let s4r4VText1 = 'Gang Leader:\nNo way... You\'re not a woman!';
+	let s4r4VText1 = 'Gang Leader:\nNo way... You\'re not human!';
 	let s4r4VText2 = 'Luna:\nI despise the way you think- no, your very \nexistence!';
-	let s4r4VText3 = 'Luna:\nWe were told that your kind had evolved beyond \nsuch constructs, but it appears that some \nof you are still trapped in them.';
-	let s4r4VText4 = 'Luna:\nMaybe not so much trapped as much as hiding \nwithin them.';
+	let s4r4VText3 = 'Luna:\nYou\'re quite the simpleminded human, \narent\'t you?';
+	let s4r4VText4 = 'Luna:\nOnce you were in a position of power, \nyou looked down on and harmed those below you.';
 	let s4r4VText5 = 'Luna:\nBe thankful that I\'ve put you in your place.';
 	let s4r4VText6 = 'Gang Leader:\nYou bi-';
 	let s4r4VText7 = 'Luna:\nI\'m glad that\'s over with.';
