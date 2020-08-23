@@ -150,7 +150,7 @@ function clearText(scene){
 	let s4r4VText1 = 'Gang Leader:\nNo way... You\'re not human!';
 	let s4r4VText2 = 'Luna:\nI despise the way you think- no, your very \nexistence!';
 	let s4r4VText3 = 'Luna:\nYou\'re quite the simpleminded human, \narent\'t you?';
-	let s4r4VText4 = 'Luna:\nOnce you were in a position of power, \nyou looked down on and harmed those below you.';
+	let s4r4VText4 = 'Luna:\nOnce you were in a position of power, \nyou looked down on and harmed those below \nyou.';
 	let s4r4VText5 = 'Luna:\nBe thankful that I\'ve put you in your place.';
 	let s4r4VText6 = 'Gang Leader:\nYou bi-';
 	let s4r4VText7 = 'Luna:\nI\'m glad that\'s over with.';
