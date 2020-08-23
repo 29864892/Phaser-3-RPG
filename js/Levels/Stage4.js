@@ -18,7 +18,7 @@ class Stage4 extends Phaser.Scene{
 	}
 	preload(){
 		this.load.tilemapTiledJSON('map4', 'assets/stage4/stage4-1b.json');
-		this.load.spritesheet('tiles4', 'assets/stage4/stage4Tiles.png', {frameWidth: 40, frameHeight: 40});
+		this.load.spritesheet('tiles4', 'assets/stage4/stage4tiles.png', {frameWidth: 40, frameHeight: 40});
 	}
 	
 	create(){
