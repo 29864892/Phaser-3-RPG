@@ -113,7 +113,7 @@ function clearText(scene){
 	let s4r3VText7 = 'Luna:\nAttacked? Impossible, we didn\'t come here to \nwage war!';
 	let s4r3VText8 = 'Soldier 3:\n*Coughing* I refuse to believe that after what I \nsaw...';
 	let s4r3VText9 = 'Soldier 3:\nOur superiors ordered us to kill anyone \nwho may have found out about it...';
-	let s4r3VText10 = 'Soldier 3:\nWhich includes everyone is this town.';
+	let s4r3VText10 = 'Soldier 3:\nWhich includes everyone in this town.';
 	let s4r3VText11 = 'Soldier 3:\nIf only they hadn\'t invaded...';
 	let s4r3VTexts1 = [s4r3VText1, s4r3VText2, s4r3VText3, s4r3VText4, s4r3VText5, s4r3VText6, s4r3VText7, s4r3VText8, s4r3VText9, s4r3VText10, s4r3VText11];
 	//text after event
@@ -127,7 +127,7 @@ function clearText(scene){
 	let s4r4Text1 = 'Gang Leader:\n Your boss is sending me more guns right?';
 	let s4r4Text2 = 'Soldier:\nO-of course sir! The supplies should arrive \ntomorrow!';
 	let s4r4Text3 = 'Gang Leader:\nHeh, that\'s perfect. I really need to restore \n\'order\' to the area soon.';
-	let s4r4Text4 = 'Soldier:\nMy Captain also wishes to inform you that \nwe will leaving this area tomorrow.';
+	let s4r4Text4 = 'Soldier:\nMy Captain also wishes to inform you that \nwe are leaving this area tomorrow.';
 	let s4r4Text5 = 'Gang Leader:\nGood! Get out of here you pests!';
 	let s4r4Text6 = 'Soldier:\nTsk. What a pain...';
 	let s4r4Text7 = 'Gang Leader:\nWhat was that, runt? Got a death wish?';
@@ -137,7 +137,7 @@ function clearText(scene){
 	let s4r4Text10 = 'Gang Leader:\nMhmm... You\'re just as good of a lady.';
 	let s4r4Text11 = 'Luna:\nHey -';
 	let s4r4Text12 = 'Gang Leader:\nTell you what kid, give me the girl and I\'ll let you \ngo.';
-	let s4r4Text13 = 'Luna:\nAs if I was his property!';
+	let s4r4Text13 = 'Luna:\nHa, As if I were his property!';
 	let s4r4Text14 = 'Gang Leader:\nOh, so you want to resist me then?';
 	let s4r4Text15 = 'Luna:\nYou must be punished for the crimes you\'ve \ncommitted!';
 	let s4r4Text16e = 'Gang Leader:\nCrimes? I\'ve only been working with \nthe army to maintain order.';
@@ -149,12 +149,13 @@ function clearText(scene){
 	//after battle
 	let s4r4VText1 = 'Gang Leader:\nNo way... You\'re not human!';
 	let s4r4VText2 = 'Luna:\nI despise the way you think- no, your very \nexistence!';
-	let s4r4VText3 = 'Luna:\nYou\'re quite the simpleminded human, \narent\'t you?';
+	let s4r4VText3 = 'Luna:\nYou\'re quite the simpleminded human, \naren\'t you?';
 	let s4r4VText4 = 'Luna:\nOnce you were in a position of power, \nyou looked down on and harmed those below \nyou.';
 	let s4r4VText5 = 'Luna:\nBe thankful that I\'ve put you in your place.';
-	let s4r4VText6 = 'Gang Leader:\nYou bi-';
+	let s4r4VText6 = 'Gang Leader:\nYou b-';
+	let s4r4VText6b = '(Looks like he\'s dead.)';
 	let s4r4VText7 = 'Luna:\nI\'m glad that\'s over with.';
-	let s4r4VTexts = [s4r4VText1, s4r4VText2, s4r4VText3, s4r4VText4, s4r4VText5, s4r4VText6, s4r4VText7];
+	let s4r4VTexts = [s4r4VText1, s4r4VText2, s4r4VText3, s4r4VText4, s4r4VText5, s4r4VText6, s4r4VText6b, s4r4VText7];
 	
 	let s4r4EText1 = 'Luna:\n*Coughing* I must have used too much energy...';
 	let s4r4EText2 = 'Luna:\nThough I am one of my people\'s strongest \nwarriors, my stamina is quite low.';
