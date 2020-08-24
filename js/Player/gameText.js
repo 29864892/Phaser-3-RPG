@@ -82,7 +82,7 @@ function clearText(scene){
   //stage4s1
 	let s4s1Text1 = 'Kid:\nW-who are you people? Are you even human?';
 	let s4s1Text2 = 'Luna:\nDon\'t worry about that. Do you know what \nhappened here?';
-	let s4s1Text3 = 'Kid:\nG-go t-to the center of the town!';
+	let s4s1Text3 = 'Kid:\nG-go t-to the center of town!';
 	let s4s1Text4 = 'Luna:\nWhat\'s over there?';
 	let s4s1Text5 = 'Kid:\nThey told me to tell everyone to go to the center \nof town!';
 	let s4s1Text6 = 'Luna:\nWho told you?';
